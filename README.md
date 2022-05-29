@@ -5,7 +5,7 @@ A Music Recommendation web based application  which focuses on Algorithms- Cosin
 - Discover less popular Song <br/><br/>
 
 User can choose on the basis 6 modes of functionalities and System can recommend max 20 Songs.
-The main purpose of choosing Cosine similarity model was it comibes both user based and content based features which are
+The main purpose of choosing Cosine similarity model was it comibes both user based and content based features which are- lyrically similar, mood similar,same artist etc.
 ## Features
 ### Functionalities
 - 2 modes of recommendations between which the user can toggle anytime:

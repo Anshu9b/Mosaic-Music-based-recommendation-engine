@@ -1,4 +1,4 @@
-# Mosaic - Music based recommndation Engine
+# 🎧 Mosaic - Music based recommndation Engine
 
 A Music Recommendation web based application  which focuses on Algorithms- Cosine Similarity, Tfidf and Eucledian distance and basis on that gives the user freedom to choose from- what is
 - Trending 
@@ -64,8 +64,20 @@ streamlit run app.py               # runs the frontend locally in browser
 ```
 For running tests, ensure you have pytest installed via pip, then simply run the command `pytest`
 
-## Code Deployment
-The streamlit frontend is hosted at 
+## Hosted Application
+The streamlit frontend is hosted at https://share.streamlit.io/anshu9b/mosaic-music-based-recommendation-engine/main/app.py
+
+## My Journey
+- Initial days were spent in collecting dataset for my project , I have gone through different data's at last downloaded Kaggle- Spotify dataset by Imuhamad.
+- After that I worked on algorithms being a beignner in this my 9-10 days were spented in configuring them according to my dataset.
+- After that I configured my jupyter notebook for initial testing of algorithms using recommendation.ipynb file and then broken down into preprocessing.py and run_recommendor.py for pickling and recommendations.
+- After that I was able to integrate my jupyter notebooks with streamlit features to land with my app.py file which has main frontend part.
+- I then experimented and worked with different themes for UI and was able to land with custom themes and sidebars and menubars.<br> </br>
+
+As per requirements I have made a [google slides presentation] https://docs.google.com/presentation/d/1ClJW7FRqo6ycregjw_KIvj48rf6azVoo/edit?usp=sharing&ouid=106169485861165829208&rtpof=true&sd=true  and a [video demo ]  https://www.youtube.com/watch?v=yZMcLTcoGGs
+
+
+## !! Thankyou for visting my project
 
 
 

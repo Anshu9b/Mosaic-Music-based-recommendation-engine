@@ -36,7 +36,7 @@ if(mode == option1):
 else:
     prioritisePopular = False
 
-recommendations_count = st.sidebar.slider('You Prefer - Quantity or Quality', min_value=1, max_value=10, value=3)
+recommendations_count = st.sidebar.slider('You Prefer - Quantity or Quality', min_value=1, max_value=20, value=3)
 
 st.sidebar.write('Which kinds of recommendations you\'d like') # options added later below when adding songs
 

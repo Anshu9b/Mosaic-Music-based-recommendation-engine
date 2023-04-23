@@ -36,7 +36,7 @@ if(mode == option1):
 else:
     prioritisePopular = False
 
-recommendations_count = st.sidebar.slider('You Prefer - Quantity or Quality', min_value=1, max_value=20, value=3)
+recommendations_count = st.sidebar.slider('You Prefer - Quantity or Quality', min_value=1, max_value=10, value=3)
 
 st.sidebar.write('Which kinds of recommendations you\'d like') # options added later below when adding songs
 
@@ -51,9 +51,9 @@ current_song = get_metadata(st.session_state['current_song_index'])
 
 st.write(f'## {current_song["track_name"]} - {current_song["track_artist"]}')
 
-youtube_search = VideosSearch(f'## {current_song["track_name"]} - {current_song["track_artist"]}', limit = 2)
-youtube_id = youtube_search.result()['result'][1]['id'] # getting youtube link
-thumbnail_url = youtube_search.result()['result'][1]['thumbnails'][1]['url'] # getting youtube thumbnail
+youtube_search = VideosSearch(f'## {current_song["track_name"]} - {current_song["track_artist"]}', limit = 1)
+youtube_id = youtube_search.result()['result'][0]['id'] # getting youtube link
+thumbnail_url = youtube_search.result()['result'][0]['thumbnails'][0]['url'] # getting youtube thumbnail
 
 st.write(f'[![YouTube thumbnail]({thumbnail_url})](https://www.youtube.com/watch?v={youtube_id})')
 st.write(f'[Hear on YouTube](https://www.youtube.com/watch?v={youtube_id})')
